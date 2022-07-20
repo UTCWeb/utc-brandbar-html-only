@@ -7,4 +7,4 @@ The University of Tennessee at Chattanooga Brand Bars for general use. There are
 
 <hr />
 
-<strong>Brand Bar V2:</strong> This is a stand-alone, brand bar and page, with sample copy and full UTC footer with department info, footer map and menus, and full copyright and documentation links. It contains navigation in the header, using the Library as the example, HOWEVER, IT IS NOT RESPONSIVE, yet. The search button is a link to the main UTC website search page for flexible application. CSS and SVG logo are built-in with social media links to main UTC accounts.
+<strong>Brand Bar V2:</strong> This is a stand-alone, brand bar and page, with sample copy and full UTC footer with department info, footer map and menus, and full copyright and documentation links. It contains navigation in the header, using the main UTC site's menu as the example. This version is fully responsive. The search button is a link to the main UTC website search page for flexible application. CSS and SVG logo are built-in with social media links to main UTC accounts. Social media links specific to departments are available and commented out in this base UTC template for user's use.
