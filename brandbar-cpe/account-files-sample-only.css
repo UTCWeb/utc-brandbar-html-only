@@ -312,6 +312,17 @@ footer div div,footer div div span{
     font-weight:inherit!important;
     font-size:1rem!important;
 }
+.footer-links {
+    color: #fff!important;
+}
+.footer-link {
+    color: var(--utc-gold)!important;
+    transition: var(--utc-transition);
+    text-decoration: none;
+}
+.footer-link:hover {    
+    color: #fff!important;
+}
 @media only screen and (max-width:460px){
     div#CCEUtility{
         display:grid;
@@ -561,6 +572,24 @@ ul.course li.coursetitle span a:hover {
 #ctl00_ContentPlaceHolder1_rptPrint {
     float:right;
     margin-top:0!important;
+}
+table#ctl00_ContentPlaceHolder1_ucCartTable_cartTable ~ div table tr td {
+    background: #FFF !important;
+    display: table-row;
+    width: 100%!important;
+}
+table.cartTable tr td {
+    padding-top: 12px;
+    padding-bottom: 12px!important;
+    border-bottom: 1px solid;
+}
+table.cartTable tr td {
+    padding-top: 12px;
+    padding-bottom: 12px!important;
+    border-bottom: 1px solid;
+}
+table table, table table table {
+    padding: 0;
 }
 @media only screen and (max-width:768px){
     ul.course .left {
