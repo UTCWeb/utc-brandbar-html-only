@@ -1,0 +1,676 @@
+:root {
+    --utc-blue: #112e51;
+    --utc-dk-gold:#725218;
+    --utc-gold: #fdb736;
+    --utc-gray: #ccc;
+    --utc-green: #276749;
+    --utc-links:#166484;
+    --utc-lt-blue: #e7eaee;
+    --utc-lt-gray: #eeeeee;
+    --utc-page: #f9f9f9;
+    --utc-red: #9b2c2c;
+    --utc-transition: all .4s ease-in-out;
+    --utc-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --utc-inset: rgba(50, 50, 93, 0.25) 0px 5px 10px -2px inset, rgba(0, 0, 0, 0.3) 0px 3px 6px -3px inset;
+    --utc-headline-font: "Oswald", sans-serif;
+    --utc-body-font: "Roboto", sans-serif;
+ }
+
+
+*,html{
+    box-sizing:border-box
+}
+body,p{
+    color:var(--utc-blue)
+}
+*,body{
+    margin:0
+}
+#header,h1{
+    width:100%
+}
+#social-footer a svg.fa-2x,a{
+    transition:.4s ease-in-out
+}
+:root{
+
+}
+*{
+    padding:0
+}
+*,::after,::before{
+    box-sizing:inherit
+}
+body{
+    font-size:18px;
+    font-weight:300;
+    font-family:Roboto,sans-serif;
+    background:var(--utc-page);
+    overflow-x:hidden;
+    overflow-y:scroll
+}
+body,html{
+    height:100%
+}
+#container{
+    display:flex;
+    flex-direction:column;
+    height:100vh
+}
+main{
+    flex:1 0 auto
+}
+#footer,#header{
+    flex-shrink:0
+}
+.sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border-width:0
+}
+.inner,.wrap{
+    margin:0 auto
+}
+.inner{
+    margin:24px auto;
+    clear:both;
+    position:relative;
+    z-index:100;
+    margin: 24px auto;
+    clear: both;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    max-width: 1080px;
+    padding: 0 24px;
+}
+#header{
+    box-shadow: 1px 3px 5px -1px #000;
+}
+#header,#header>.wrap>*{
+    outline:0
+}
+a{
+    color:var(--utc-links)!important;
+    text-decoration:underline;
+    cursor:pointer!important
+}
+:focus{
+    outline:unset
+}
+a:focus,a:hover{
+    color:var(--utc-blue);
+    text-decoration:none
+}
+p{
+    margin-bottom:12px
+}
+hr{
+    background:0 0;
+    border-bottom:1px solid var(--ltgray);
+    line-height:1.5rem
+}
+b,strong{
+    font-weight:500
+}
+em,i{
+    font-style:italic
+}
+::selection{
+    background:var(--utc-lt-blue)
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:500;
+    margin-top:24px;
+    font-family:Oswald,sans-serif!important;
+    color:var(--utc-blue)!important
+}
+address,address a{
+    font-weight:300!important
+}
+h1{
+    font-size:3rem!important;
+    text-align:center;
+    padding-bottom:6px;
+    border-bottom:6px solid var(--utc-gold);
+    margin:2rem auto
+}
+h2{
+    font-size:2.25rem;
+    text-align:left;
+    margin:48px auto 12px
+}
+#department-footer h2{
+    text-align:center;
+    margin:0
+}
+h3{
+    font-size:1.75rem
+}
+h4{
+    font-size:1.5rem
+}
+h5{
+    font-size:1.25rem
+}
+h6{
+    font-size:1rem;
+    text-align:center;
+    margin:36px auto
+}
+.title-area svg{
+    max-width:300px;
+    max-height:48px
+}
+.button-wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:36px;
+    max-width:900px;
+    margin:0 auto
+}
+.btn,.btn-primary,.button,button{
+    background:var(--utc-blue);
+    color:#fff;
+    cursor:pointer;
+    text-align:center;
+    font-size:1rem;
+    padding:6px 12px;
+    text-decoration:none;
+    white-space:normal;
+    width:auto;
+    display:inline-block;
+    margin-top:6px;
+    margin-bottom:6px;
+    transition:250ms ease-in-out
+}
+.btn-danger,.button.secondary{
+    background:var(--utc-gold);
+    color:var(--utc-blue)
+}
+.btn-danger,.btn:focus,.btn:hover,.button.secondary:focus,.button.secondary:hover,.button:focus,.button:hover,button:focus,button:hover{
+    color:var(--utc-gold)
+}
+#header{
+    background:#fff;
+    top:0;
+    z-index:9999;
+    box-shadow:1px 3px 5px -1px #000;
+    margin-bottom:1rem
+}
+.header-first-row{
+    background:#e7eaee;
+    display:flex;
+    align-content:center;
+    padding:6px 12px
+}
+#department-footer{
+    padding-top:1.2rem!important;
+    padding-bottom:1.2rem!important;
+    background:var(--utc-lt-blue);
+    text-align:center
+}
+address a{
+    text-decoration:none!important;
+    font-size:1rem
+}
+address a:hover{
+    background:#fff;
+    padding:3px
+}
+address{
+    font-style:normal!important
+}
+.footer-copyright-container{
+    background-color:var(--utc-blue);
+    padding:1rem!important
+}
+.footer-copyright-container ul{
+    padding:60px 24px 24px;
+    width:fit-content;
+    margin:0 auto
+}
+.footer-copyright-container li{
+    font-size:16px;
+    padding:9px
+}
+.footer-copyright-container li a{
+    text-decoration:none;
+    color:#fff!important
+}
+.footer-copyright{
+    padding-bottom:6px!important
+}
+.footer-copyright-container p{
+    color:#fff;
+    text-align:center;
+    margin-top:24px;
+    margin-bottom:24px;
+}
+#social-footer a svg.fa-2x:hover{
+    color:var(--utc-gold);
+    transform:scale(1.5)
+}
+@media only screen and (max-width:460px){
+    #department-footer h2 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+    .footer-copyright-container ul{
+        padding:0
+    }
+    .footer-copyright-container li{
+        font-size:14px;
+        padding:6px
+    }
+    .mobile-hide{
+        display:none
+    }
+    .mobile-block{
+        display:block;
+        margin-top:12px
+    }
+}
+@media only screen and (max-width:320px){
+    .mobile-hide-small{
+        display:none
+    }
+}
+ 
+/*Formerly "CCE ADJUSTED STYLES BY UTC" inlined html*/
+
+#main>p{
+    text-align:center;
+    margin-bottom:2rem
+}
+#catalogHoriz .categoryTitle{
+    background-color:var(--utc-blue)!important
+}
+#catalogHoriz ul li,#catalogVert ul li{
+    display:block;
+    text-align:center
+}
+footer div div{
+    margin-top:0!important;
+    padding:0!important;
+    text-align:center
+}
+div#CCEUtility{
+    display:flex;
+    justify-content:space-between
+}
+div#CCEMenuTog{
+    text-align:right
+}
+footer div div,footer div div span{
+    font-weight:inherit!important;
+    font-size:1rem!important;
+}
+@media only screen and (max-width:460px){
+    div#CCEUtility{
+        display:grid;
+        grid-template-columns:2.5fr .5fr
+    }
+}
+
+/****Overrides to SchoolStyles.css****/
+
+/*these utc-branded styles override SchoolStyles.css and should be placed after SchoolStyles.css*/
+#main li {
+    display: block;
+    margin-top: 6px;
+    /* margin-bottom: 3px; */
+}
+div.pageHeading {
+    color: #112e51;
+    font-size: 24px!important;
+    margin-bottom: 12px;
+}
+#ctl00_ContentPlaceHolder1_btnUserName {
+    margin-bottom:48px;
+}
+ #catalogHoriz {
+    display: flex;
+}
+
+
+div.pageHeading p { 
+    color: var(--utc-blue);
+    font-family: var(--utc-headline-font);
+    font-size:3rem!important;
+}
+.signinpane {
+    max-width: 750px;
+    margin:0 auto;
+}
+input {
+    margin-bottom: 12px;
+    height: 32px;
+    padding:6px;
+  }
+  input[type=checkbox] {
+    margin-bottom: 0;
+    height:unset;
+}
+#ctl00_ContentPlaceHolder1_chkOptout, label[for="ctl00_ContentPlaceHolder1_chkOptout"] {
+    margin-top:24px;
+}
+label[for="ctl00_ContentPlaceHolder1_chkOptout"] {
+    margin-left:12px;
+}
+  .password_icon {
+    left: 96%;
+  }
+  button, .button, input[type="submit"], input[type="button"], #signInForm input[type="submit"], #sso input[type="submit"], #createNewForm button, #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lnkPayRedirect {
+    margin-top: 24px !important;
+    width: fit-content !important;
+    padding: 6px 42px 6px 42px !important;
+    background-color: var(--utc-blue)!important;
+    color: #fff;
+    transition: var(--utc-transition);
+    box-shadow: var(--utc-shadow);
+    font-family: var(--utc-body-font);
+  }
+  #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lnkPayRedirect {
+    color:#fff!important;
+    text-decoration: none!important;
+    border-radius: 3px;
+    font-weight:bold;
+  }
+  #signInForm label, #signInForm input, #createNewForm label, #createNewForm input {
+    padding:6px!important;
+    color: var(--utc-blue);
+  }
+  button:hover, .button:hover, input[type="submit"]:hover, input[type="button"]:hover, #signInForm input[type="submit"]:hover, #sso input[type="submit"]:hover, #createNewForm button:hover, #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lnkPayRedirect:hover {
+    background-color: var(--utc-gold) !important;
+    color: var(--utc-blue)!important;
+    box-shadow: var(--utc-inset);
+    margin-top: 24px !important;
+    width: fit-content !important;
+    padding: 6px 42px 6px 42px !important;
+  }
+  #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lnkPayRedirect:hover {
+    text-decoration: none;
+}
+  #unpwReset {
+    display: flex !important;
+    justify-content: space-around;
+  }
+  /*Pages: username recovery, password recovery, and password reset pages. NOTE: The Password Reset table IS NOT WRAPPED within an IDed div and may conflict with other forms.***/*/
+  #recoverUserNameHeader, #resetPasswordHeader {margin-bottom:-36px;} /**There is an empty paragraph element under these divs. Remove css fix if empty paragraphs are removed.**/
+
+  #forgotUsername td:first-child {
+    width: 60px;
+    padding-top: 6px;
+}
+#forgotPassword td:first-child {
+    width: 100px;
+    padding-top: 6px;
+}
+#aspnetForm table.common td:first-child { /*this code is for the Password Reset page*/
+    width: 150px;
+    padding-top: 6px;
+}
+#aspnetForm p {
+    display: block;
+    margin-top: 24px;
+  }
+  #aspnetForm .classPanelInfo p {
+    margin: 0;
+}
+  #forgotUsername p,  #forgotPassword p, #recoverUserNameHeader p {
+    display:inline
+  }
+  
+ #ctl00_ContentPlaceHolder1_passwordRecoveryDescrDiv p, #ctl00_ContentPlaceHolder1_recoverUserNameDescrDiv p {
+    display: block;
+    line-height: 1.5;
+  }
+  #ctl00_ContentPlaceHolder1_lblUserErrorMessage, #ctl00_ContentPlaceHolder1_lblPasswordErrorMessage, #ctl00_ContentPlaceHolder1_lblErrorMessage {
+    height: 36px;
+    display: inline-block;
+    margin-top: 18px;
+  }
+  a[href="../feedback/feedback.aspx"] {
+    margin-right: 24px;
+    padding-top:24px;
+  }
+  a[href="signin.aspx"] {
+    margin-left: 24px;
+    padding-top:24px;
+  }
+  .password_icon_passwordrecovery {
+    margin-left: 0!important;
+    left: 390px;
+}
+select {
+    height: 32px;
+    margin-top: 12px;
+}
+table.accountinfo tr td:nth-child(3) select, #ctl00_ContentPlaceHolder1_paymenttypes{
+    margin-top:0
+}
+#ctl00_ContentPlaceHolder1_paymenttypes{
+    margin-left:12px
+}
+table.accountinfo tr td:nth-child(2) {
+    width: 12% !important;
+    padding-top: 6px;
+}
+table.accountinfo tr td:nth-child(1), table.payment tr td:nth-child(1) {
+    padding-top: 6px;
+}
+#ctl00_ContentPlaceHolder1_ucAccountInfo_titles, #ctl00_ContentPlaceHolder1_ucAccountInfo_states {
+    margin-bottom:12px;
+}
+table.payment {
+    margin-top: 12px;
+}
+table.cartTable tr td.cartcell {
+    padding-top:12px;
+}
+table.cartTable tr td:first-child {
+    width: 75%!important;
+}
+table.cartTable tr td:nth-child(2) {
+    width: 15%!important;
+    text-align: center;
+}
+table.cartTable tr td:nth-child(3) {
+    min-width: 300px;
+    text-align: center!important;
+}
+table.cartTable tr td {border:none;}
+table.cartTable tr#ctl00_ContentPlaceHolder1_ctl01_subtotalrow td,
+table.cartTable tr#ctl00_ContentPlaceHolder1_ctl01_balanceRow td {
+    border-top: 1px solid #112e51!important;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+/***course page***/
+.categoryTitle, #catalogHoriz .categoryTitle {
+    background: var(--utc-blue) !important;
+    transition: var(--utc-transition);
+    min-height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .categoryTitle:hover, #catalogHoriz .categoryTitle:hover {
+    background: var(--utc-gold) !important;
+}
+
+.categoryTitle:hover a, #CCEContent .categoryTitle a:hover {
+    color: #112e51;
+    text-decoration: none;
+}
+#errorMessage, .attn {
+    color: var(--utc-red)!important;
+    text-align: center;
+}
+#errorMessage a, .attn a {
+    color: var(--utc-links)!important;
+}
+
+ul.course li.coursetitle {
+    background-color: var(--utc-blue);
+}
+table {
+    display:block;
+    padding:12px;
+}
+.class-list table.report, .make-payment table.report {
+    display:table;
+    padding:unset;
+}
+.pnlClass table {
+    padding:0;
+}
+#ctl00_ContentPlaceHolder1_pnlClass div.classPanelInfo table.class {
+    width: 99% !important;
+}
+tr {
+    height: 32px;
+}
+.history tr.reportBody, #ctl00_ContentPlaceHolder1_pnlClass tr:first-child {
+    height: unset;
+}
+ul.course .left:first-child {
+    line-height: 1.65;
+}
+ul.course li.coursetitle span a {
+    text-decoration: underline!important;
+}
+ul.course li.coursetitle span a:hover {
+    text-decoration: none!important;
+}
+.history .report tbody, .history .report tr {
+    width: 100%;
+    display:block;
+}
+.history .report td {
+    width: 50%;
+}
+#ctl00_ContentPlaceHolder1_rptPrint {
+    float:right;
+    margin-top:0!important;
+}
+@media only screen and (max-width:768px){
+    ul.course .left {
+        display:block
+    }
+    #ctl00_ContentPlaceHolder1_pnlClass div.classPanelInfo table.class div {
+        clear: both;
+        width: 100%!important;
+    }
+    .left, .right {
+        float:none;
+        width:100%;
+        display:block;
+    }
+    .classPanelInfo tbody, .classPanelInfo tr {
+        height: 100%;
+    }
+    .pnlClass tbody, .pnlClass tr, .pnlClass td {
+        width: 100%;
+        display: block;
+    } 
+    table.accountinfo tr td:nth-child(2) {
+        width: 24% !important;
+    }
+    #ctl00_ContentPlaceHolder1_rptPrint {
+        float: none;
+        margin-top: 24px!important
+    }
+}
+
+@media only screen and (max-width:640px){
+    #catalogHoriz {
+        display: inline-block;
+    }
+
+    div#top #ctl00_Ucpreheader1_headerNavMenu.right {
+    width: 100% !important;
+    display: flex!important;
+    flex-direction: column;
+    float: none!important;
+    text-align: left;
+    }
+    div#top #ctl00_Ucpreheader1_headerNavMenu.right span {
+        display:none;
+    }
+    div#top #ctl00_Ucpreheader1_headerNavMenu.right a {
+        margin-top:6px
+    }
+    table.cartTable tr td:first-child {
+        width: 100%!important;
+    }
+    table.cartTable tr td:nth-child(3) {
+        display: none;
+      }
+}
+
+@media only screen and (max-width:420px){
+    .history table.report, .history .report tbody, .history .report td, .history .report tr { 
+        display: block; 
+    }
+    .history table.report {
+        padding:0;
+        font-size: 80% !important;
+    }
+    .history .report tr.reportHeader { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .history .report tr.reportBody { border: 1px solid #ccc; }
+    .history .report td { 
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+    }
+    .history .report td:before { 
+        position: absolute;
+        left: -80px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        padding: 0 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        padding-top: 10px;
+        top: -2px;
+    }
+    .history .report td:nth-child(2):before, .history .report td:nth-child(3):before {
+        border-top:1px solid #fff;
+    }
+    .history #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lnkOrder,
+    .history #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lblDate,
+    .history #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lblTotal {
+        padding-left: 12px;
+        top: 9px;
+        position: absolute;
+    }
+    .history .report td:nth-of-type(1):before { content: "Order No."; }
+    .history .report td:nth-of-type(2):before { content: "Order Date"; }
+    .history .report td:nth-of-type(3):before { content: "TOTAL"; }
+    .history .report td {
+        margin-left: 30%;
+        width: 70%;
+        height: 32px;
+        vertical-align: middle;
+        padding-top: 6px;
+    }
+}
+@media only screen and (max-width:320px){
+    .history #ctl00_ContentPlaceHolder1_rptOrders_ctl01_lblDate { top: 0; }
+}
+

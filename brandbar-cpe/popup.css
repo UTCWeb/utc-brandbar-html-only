@@ -1,0 +1,146 @@
+#bob {
+    left:200px;
+    position:absolute;
+    top:550px;
+    /*! visibility:hidden; */
+    width:290px;
+    z-index:9999;
+    overflow:visible;
+    }
+    #bob th {
+    font-size:9pt;
+    font-weight:bold;
+    padding-right:4px;
+    text-align:right;
+    vertical-align:top;
+    }
+    #bobarrow {
+    left:-40px;
+    position:absolute;
+    top:50px;
+    z-index:13;
+    }
+    .bobArrow {
+    display:none;
+    height:51px;
+    width:55px;
+    }
+    
+    #bobcontent {
+    padding-bottom:0pt;
+    padding-top:3px;
+    }
+    .bobcontentspace {
+    padding:0pt 24px 5px 18px;
+    }
+    #bobarrowulimg {
+    display:block;
+    }
+    #bobtitle {
+    color:#004080;
+    font-size:14px;
+    font-weight:bold;
+    }
+    #bobyear {
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight:normal;
+    }
+    #bobstarclarity {
+    border-top:1px solid #B8B5B5;
+    font-size:11px;
+    padding-bottom:5px;
+    padding-top:6px;
+    width:95%;
+    }
+    #bobstarclarity table {
+    border-collapse:collapse;
+    border-spacing:0pt;
+    width:240px;
+    }
+    #bobstarclarity td {
+    padding:0px 0px 5px;
+    }
+    #bobstarclarity .starbar {
+    width:95px;
+    }
+    #bobstarclarity .prediction {
+    font-family:"Arial Black",arial,sans-serif;
+    font-size:18px;
+    text-align:right;
+    width:35px;
+    }
+    #bobstarclarity .average {
+    font-family:verdana,helvetica,sans-serif;
+    font-size:10px;
+    font-weight:bold;
+    text-align:right;
+    width:35px;
+    }
+    #bobstarclarity .starText {
+    font-family:verdana,helvetica,sans-serif;
+    font-size:10px;
+    padding-left:5px;
+    width:105px;
+    }
+    #bobpersonal {
+    border-top:1px solid #B8B5B5;
+    font-size:11px;
+    padding-top:6px;
+    width:95%;
+    }
+    .transp
+    {
+        background-color:Transparent;
+    }
+    #bobsynopsis
+    {
+        background-color:White;
+    }
+    #bobinner {
+    background-image:url(../images/popup/whitemiddle.png);
+    width:290px;
+    }
+    #bobtitlebox {
+    background-image:url(../images/popup/redMiddle1.png);
+    width:290px;
+    height:100%;
+    }
+    
+    
+    /* Order receipt table styles */
+    .ReceiptPageTitle {font-size: 16px; font-weight: bold; color:#004080;}
+    #ucCartTable_cartTable { table-layout: fixed; font-weight: bold; font-size: 14px;color: #004080; font-family: Arial, Verdana, Helvetica, Sans-Serif ; width: 100%}
+    #ucCartTable_cartTable .hdr { background: #F5F5F5; }
+    #ucCartTable_cartTable .hdrcell { border: #B6B6B6 1px solid; }
+    #ucCartTable_cartTable #ucCartTable_tdCourse { width: 60%; }
+    #ucCartTable_cartTable #ucCartTable_tdPrice { width: 10%; }
+    #ucCartTable_cartTable #ucCartTable_tdNumber { width: 5%; }
+    #ucCartTable_cartTable #ucCartTable_tdTotal1 { width: 10%; }
+    #ucCartTable_cartTable #ucCartTable_tdAction { width: 15%; }
+    #ucCartTable_cartTable #ucCartTable_tdTotal, #ucCartTable_tdTax, #ucCartTable_tdSubTotal, #ucCartTable_tdPaid, #ucCartTable_tdBalanceDue { font-size: 14px; color: Black; text-align: right; margin-right: 10px; }
+    #ucCartTable_cartTable #ucCartTable_tdTotalPrice, #ucCartTable_tdSubTotalPrice, #ucCartTable_tdTaxPrice, #ucCartTable_tdPaidAmount, #ucCartTable_tdAmountDue { border: #B6B6B6 1px solid; border-top: 0; font-size: 15px; font-weight: bold; }
+    #ucCartTable_cartTable .rowemptycart { text-align: center; font-size: 14pt; font-style: italic; font-weight: bold; border: 1px solid #B6B6B6; padding: 10px; border-top: 5px; }
+    #ucCartTable_cartTable .cartcell { font-weight: normal; font-size: 12px;background: 0; border: #B6B6B6 1px solid; border-top: 0; padding: 0; }
+    .rptcell { font-weight: normal; font-size: 14px;color:#000000; Background: 0; border:  0; border-bottom: #B6B6B6 1px solid; padding: 0; }
+    
+    #billsummary { background: #F5F5F5; font-size: 13px; padding: 10px; margin-top: 35px; border: #B6B6B6 1px solid; width: 700px; }
+    #billsummary .title { font-weight: bold; margin-bottom: 10px; margin-right: 15px;}
+    #billsummary .contactdiv { padding: 5px; float: left; width: 175px; border-right: #B6B6B6 1px solid; }
+    #billsummary .purchasediv { padding: 5px; float: right; width: 260px; }
+    
+    /* Order receipt header styles */
+    .ordernumberhdr { padding: 10px; border: 1px solid #B6B6B6; background: #F5F5F5; margin-bottom: 15px; width: 680px}
+    .ordernumberitem { font-weight: bold; width: 100px; }
+    
+    /*GENERIC POPUP*/
+    .genericPopupHeader table,
+    .genericPopup table,
+    .genericPopupFooter table
+    {
+        color:black; 
+        font-family:tahoma,sans-serif; 
+        font-size:11px;
+        text-align:left;
+    }
+    
