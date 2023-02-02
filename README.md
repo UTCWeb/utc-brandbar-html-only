@@ -18,9 +18,7 @@ The University of Tennessee at Chattanooga Brand Bars for general use. There are
 <strong>Brand Bar CPE:</strong> These files found in the brandbar-cpe folder integrate UTC branding for files that are specific to CampusCE e-commerce vendor for the Center of Professional Education (CPE). The CSS file is external. The main HTML file for guidance is brandbar-cpe.html. The other files are samples only to provide reference as to how the page should render. Main files needed are as follows:
 
 --brandbar-cpe.html
-
 --utc-brand.css
-
 --utc-fontawesome.css
 
 <hr />
