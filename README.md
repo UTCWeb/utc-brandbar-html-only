@@ -3,7 +3,7 @@ The University of Tennessee at Chattanooga Brand Bars for general use. There are
 
 <hr />
 
-<strong>Brand Bar V1:</strong> This is a stand-alone, responsive, base brand bar, sample copy and simple footer. There is no navigation in the header or footer. CSS and SVG logo are built-in with social media links to main UTC accounts.
+<strong>Brand Bar V1:</strong> This is a stand-alone, responsive, base brand bar, sample copy and simple footer. It includes key links to Title IX, Accessibility, and Privacy Policy in the footer. There is no navigation in the header or footer. CSS and SVG logo are built-in with social media links to main UTC accounts.
 
 <hr />
 
@@ -11,6 +11,10 @@ The University of Tennessee at Chattanooga Brand Bars for general use. There are
 
 <hr />
 
-<strong>Brand Bar V3:</strong> Similar to V1, this is a stand-alone, responsive, base brand bar, and simple footer without copy. There is no navigation in the header or footer. CSS and SVG logo are built-in with social media links to main UTC accounts.
+<strong>Brand Bar V3:</strong> Similar to V1, this is a stand-alone, responsive, base brand bar, and simple footer without copy. It includes key links to Title IX, Accessibility, and Privacy Policy in the footer. There is no navigation in the header or footer. CSS and SVG logo are built-in with social media links to main UTC accounts.
+
+<hr />
+
+<strong>Brand Bar CPE:</strong> These files found in the brandbar-cpe folder integrate UTC branding for files that are specific to CampusCE e-commerce vendor for the Center of Professional Education (CPE). The CSS file is external. The main HTML file for guidance is brandbar-cpe.html. The other files are samples only to provide reference as to how the page should render.
 
 <hr />
