@@ -632,4 +632,57 @@ table table, table table table {
         display: none;
       }
 }
+ul.course li.coursetitle {
+    padding: 5px 0px!important;
+  }
+  ul.course li.coursetitle span, ul.course li.coursetitle span a {
+    font-weight: bold;
+    font-size: 24px !important;
+    color: #112e51;
+    font-family: "Oswald", sans-serif;
+  }
+  ul.course li div.wrap div {
+    float:none!important;
+    width:100%!important;
+    margin-left:2%;
+  }
+  input[value="Add to Cart"] {
+    background-color: #fdb736 !important;
+    color: #112e51 !important;
+  }
 
+  .pnlClass > table > tbody {
+    display: table!important;
+    width: 100%;
+}
+.course-info-wrapper .pnlClass div.classPanelInfo, #ctl00_ContentPlaceHolder1_pnlClass div.classPanelInfo {
+  border-top: #112e51 solid 1px!important;
+}
+.course-info-wrapper .pnlClass > table > tbody > tr:last-child {
+    border-bottom: 1px solid #112e51;
+}
+ul.course li.coursetitle {
+  padding: 5px 0px!important;
+  background-color: transparent!important;
+}
+ul.course li.coursetitle span, ul.course li.coursetitle span a {
+  font-weight: bold;
+  font-size: 24px !important;
+  color: #112e51!important;
+  font-family: "Oswald", sans-serif;
+}
+ul.course li.coursetitle span a {
+	color:#166484!important;
+}
+ul.course li div.wrap div {
+  float:none!important;
+  width:100%!important;
+  margin-left:2%;
+}
+input[value="Add to Cart"] {
+  background-color: #fdb736 !important;
+  color: #112e51 !important;
+}
+.course-info-wrapper tr {
+	height:auto!important;
+}
