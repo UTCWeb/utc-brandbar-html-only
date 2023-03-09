@@ -15,7 +15,7 @@ The University of Tennessee at Chattanooga Brand Bars for general use. Unless in
 
 <hr />
 
-<strong>Brand Bar V4: For Bootstrap Application</strong> These files found in the brandbar-bootstrap folder integrate UTC branding for applications using Bootstrap, including those with modal windows. Bootstrap css and js files are relative to the brandbar-v4.html.
+<strong>Brand Bar V4: For Bootstrap Application</strong> These files found in the brandbar-bootstrap folder integrate UTC branding for applications using Bootstrap, including those with modal windows. Bootstrap css and js files are relative to the brandbar-v4.html. It includes key links to Title IX, Accessibility, and Privacy Policy in the footer. There is no navigation in the header or footer. CSS and SVG logo are built-in with social media links to main UTC accounts.
 
 <hr />
 <strong>Brand Bar CPE:</strong> These files found in the brandbar-cpe folder integrate UTC branding for files that are specific to CampusCE e-commerce vendor for the Center of Professional Education (CPE). The CSS file is external. The main HTML file for guidance is brandbar-cpe.html. The other files are samples only to provide reference as to how the page should render. Main files needed are as follows:
