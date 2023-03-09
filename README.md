@@ -1,6 +1,8 @@
 # utc-brandbar-html-only
 The University of Tennessee at Chattanooga Brand Bars for general use. Unless indicated in the individual descriptions below, there are no CMSes associated with these self-contained brand bars.
 
+Demos can be seen here: https://webapp.utc.edu/utc-brandbar-html/
+
 <hr />
 
 <strong>Brand Bar V1:</strong> This is a stand-alone, responsive, base brand bar, sample copy and simple footer. It includes key links to Title IX, Accessibility, and Privacy Policy in the footer. There is no navigation in the header or footer. CSS and SVG logo are built-in with social media links to main UTC accounts.
